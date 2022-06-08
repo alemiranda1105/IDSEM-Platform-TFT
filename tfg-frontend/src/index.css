@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Montserrat', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.parallax {
+  background-image: url("./res/facturas-luz.png");
+  min-height: 500px;
+  background-position: center;
+  background-size: fit;
+  background-repeat: no-repeat;
+  opacity: 50%;
+}
+
+.section-title {
+  @apply text-black text-4xl leading-10 tracking-wide font-bold m-3
+}
+
+.section-small-title {
+  @apply text-black text-3xl leading-9 tracking-wide font-bold m-2
+}
+
+@media (max-width: 640px) {
+  .section-title {
+    @apply text-2xl leading-8
+  }
+
+  .parallax {
+    background-image: url("./res/facturas-luz-sm.png");
+  }
+  
+}

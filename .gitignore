@@ -1,0 +1,40 @@
+venv
+.env
+.idea
+.pytest_cache
+.DS_Store
+uploaded_methods
+evaluation_examples/base-model/
+evaluation_examples/results-example
+evaluation_examples/test_json.zip
+files
+**/__pycache__/**
+__pycache__
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.development
+.env.test.local
+.env.production.local
+.env.production
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local Netlify folder
+.netlify

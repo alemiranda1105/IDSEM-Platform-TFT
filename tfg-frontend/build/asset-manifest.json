@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f08cc61a.css",
+    "main.js": "/static/js/main.dbddec86.js",
+    "static/js/787.e0314f9e.chunk.js": "/static/js/787.e0314f9e.chunk.js",
+    "static/media/invoice3.png": "/static/media/invoice3.f5790a4477f034bdb0d5.png",
+    "static/media/facturas-luz.png": "/static/media/facturas-luz.2522c0601cbfc97beefb.png",
+    "static/media/invoice1.png": "/static/media/invoice1.1ce291900d27160a4647.png",
+    "static/media/invoice2.png": "/static/media/invoice2.11bee8e73b841b7f5484.png",
+    "static/media/facturas-luz-sm.png": "/static/media/facturas-luz-sm.4b64ae99eb23ec79d978.png",
+    "static/media/logo-ulpgc.png": "/static/media/logo-ulpgc.c4551fd5f79bec6c006c.png",
+    "static/media/logo-ctim.png": "/static/media/logo-ctim.532f01e3b75d3224bbec.png",
+    "index.html": "/index.html",
+    "main.f08cc61a.css.map": "/static/css/main.f08cc61a.css.map",
+    "main.dbddec86.js.map": "/static/js/main.dbddec86.js.map",
+    "787.e0314f9e.chunk.js.map": "/static/js/787.e0314f9e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f08cc61a.css",
+    "static/js/main.dbddec86.js"
+  ]
+}
