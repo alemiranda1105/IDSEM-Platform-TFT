@@ -45,6 +45,13 @@ En esta misma carpeta encontrará el manual de usuario de la plataforma: [Manual
 
 ---
 
+## Repositorios
+Para una mejor organización, durante el desarrollo de este proyecto se usaron dos respositorios distintos, uno para el frontend y otro para el backend. En caso de que quiera consultar los detalles de cada uno de ellos, se puede encontrar en los siguientes repositorios:
+1. [FrontEnd](https://github.com/alemiranda1105/tfg-frontend)
+2. [BackEnd](https://github.com/alemiranda1105/tfg-backend)
+
+---
+
 ## Autor
 __Alejandro Miranda López__
 
