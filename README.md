@@ -20,7 +20,7 @@ Para probar este sitio web hay que ejecutar los siguientes comandos:
 
 Para probar esta api hay que ejecutar los siguientes comandos:
 1. Primero instalamos los paquetes necesarios (Se recomienda hacer uso de un entorno virtual para la instalación de los paquetes, por ejemplo: `virtualenv venv`):
-`pip install -r requirements.txt`
+`pip install -r requirements.txt` o `pip3 install -r requirements.txt`.
 2. Se debe actualizar el fichero `.env` con la localización del modelo base (BASE_MODEL_FOLDER), la carpeta donde se guardarán los métodos evaluados (UPLOADED_METHODS_FOLDER) y en caso de necesitar ejecutar los tests, actualizar la localización de los resultados de prueba (TEST_FILE_ZIP), el resto de campos no es necesario actualizarlos. En este repositorio se encuentra un ejemplo de este fichero y los archivos mencionados, [carpeta](./tfg-backend/evaluation_examples/).
 3. Ejecutamos:
 `python3 app/main.py`
