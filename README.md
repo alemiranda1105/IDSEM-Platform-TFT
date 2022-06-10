@@ -1,4 +1,4 @@
-# Descripción
+# Sistema Web para la Evaluación de Métodos de Extracción de Información a partir de Facturas
 
 Este es el código para la creación de mi proyecto de final de grado.
 
@@ -16,12 +16,15 @@ Para probar este sitio web hay que ejecutar los siguientes comandos:
 3. Abrimos la siguiente URL: [localhost:3000](http://localhost:3000/)
 
 ### Lado servidor
+<b>¡Atención!:</b> Es necesario tener instaladas las dependencias necesarias para MongoDB. El link para su instalación es el siguiente: [MongoDB](https://www.mongodb.com/try/download/community).
+
 Para probar esta api hay que ejecutar los siguientes comandos:
 1. Primero instalamos los paquetes necesarios:
 `pip install -r requirements.txt`
-2. Ejecutamos:
+2. Se debe actualizar el fichero `.env` con la localización del modelo base (BASE_MODEL_FOLDER), la carpeta donde se guardarán los métodos evaluados (UPLOADED_METHODS_FOLDER) y en caso de necesitar ejecutar los tests, actualizar la localización de los resultados de prueba (TEST_FILE_ZIP), el resto de campos no es necesario actualizarlos. En este repositorio se encuentra un ejemplo de este fichero y los archivos mencionados, [carpeta](./tfg-backend/evaluation_examples/).
+3. Ejecutamos:
 `python3 app/main.py`
-3. Y ya podremos hacer solicitudes al localhost:8000
+4. Y ya podremos hacer solicitudes al localhost:8000
 
 ---
 
